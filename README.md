@@ -1,4 +1,5 @@
-home-site
+Home - Site
 =========
 
-The home site of mindmeep
+The Home site of MindMeep
+We've utilised parallax designing in our website.
