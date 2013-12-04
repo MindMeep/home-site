@@ -1,8 +1,5 @@
-section:nth-child(odd) {
-	background-color: #e5e5e5;
-}
-section {
-	min-height: 500px;
+body {
+	margin: 0;
 }
 header {
 	background-color: grey;
@@ -16,4 +13,15 @@ section > div, header > div {
 }
 header nav, header h1 {
 	display: inline-block;
+}
+section:nth-child(odd) {
+	background-color: #e5e5e5;
+}
+section {
+	min-height: 500px;
+	overflow: hidden;
+}
+section > h1 {
+	text-align: center;
+	font-size: 40px;
 }
