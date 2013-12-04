@@ -1,18 +1,22 @@
 body {
 	margin: 0;
 }
+
+/* HEADER */
 header {
 	background-color: grey;
+}
+header nav, header h1 {
+	display: inline-block;
 }
 section, header {
 	width: 100%;
 }
+
+/* SECTION */
 section > div, header > div {
 	max-width: 70%;
 	margin: auto;
-}
-header nav, header h1 {
-	display: inline-block;
 }
 section:nth-child(odd) {
 	background-color: #e5e5e5;
