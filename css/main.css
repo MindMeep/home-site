@@ -1,0 +1,16 @@
+section:nth-child(odd) {
+	background-color: #e5e5e5;
+}
+section {
+	min-height: 500px;
+}
+header {
+	background-color: grey;
+}
+section, header {
+	max-width: 70%;
+	margin: auto;
+}
+header nav, header h1 {
+	display: inline-block;
+}
