@@ -14,33 +14,43 @@
         <![endif]-->
 
         <header>
-        	<h1>MindMeep</h1>
-        	<nav>
-        		<a href="#">Our Work</a>
-        		<a href="#">About Us</a>
-        		<a href="#">Meet the team</a>
-        		<a href="#">Contact Us</a>
-        	</nav>
+        	<div>
+        		<h1>MindMeep</h1>
+        		<nav>
+        			<a href="#">Our Work</a>
+        			<a href="#">About Us</a>
+        			<a href="#">Meet the team</a>
+        			<a href="#">Contact Us</a>
+        		</nav>
+        	</div>
         </header>
         <section>
-        	<h1>Our Work</h1>
-        	<p>Some description of our work comes here.</p>
-        	<!-- image grid comes here -->
+        	<div>
+        		<h1>Our Work</h1>
+        		<p>Some description of our work comes here.</p>
+        		<!-- image grid comes here -->
+        	</div>
         </section>
         <section>
-        	<h1>About Us</h1>
-        	<p>Some description about us comes here.</p>
-        	<!-- maybe what or how we work -->
+        	<div>
+        		<h1>About Us</h1>
+        		<p>Some description about us comes here.</p>
+        		<!-- maybe what or how we work -->
+        	</div>
         </section>
         <section>
-        	<h1>Meet the Team</h1>
-        	<p>Some description about the team comes here.</p>
-        	<!-- pictures and names here -->
+        	<div>
+        		<h1>Meet the Team</h1>
+        		<p>Some description about the team comes here.</p>
+        		<!-- pictures and names here -->
+        	</div>
         </section>
         <section>
-        	<h1>Contact Us</h1>
-        	<p>Send us some love. No reason needed, just do it!</p>
-        	<!-- contact form -->
+        	<div>
+        		<h1>Contact Us</h1>
+        		<p>Send us some love. No reason needed, just do it!</p>
+        		<!-- contact form -->
+        	</div>
         </section>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>

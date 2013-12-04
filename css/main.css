@@ -8,6 +8,9 @@ header {
 	background-color: grey;
 }
 section, header {
+	width: 100%;
+}
+section > div, header > div {
 	max-width: 70%;
 	margin: auto;
 }
