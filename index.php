@@ -25,19 +25,20 @@
         	</div>
         </header>
         <section>
+            <div>
+                <h1>MindMeep</h1>
+                <p>Some description about us comes here.</p>
+                <!-- maybe what or how we work -->
+            </div>
+        </section>
+        <section>
         	<div>
         		<h1>Our Work</h1>
         		<p>Some description of our work comes here.</p>
         		<!-- image grid comes here -->
         	</div>
         </section>
-        <section>
-        	<div>
-        		<h1>About Us</h1>
-        		<p>Some description about us comes here.</p>
-        		<!-- maybe what or how we work -->
-        	</div>
-        </section>
+        
         <section>
         	<div>
         		<h1>Meet the Team</h1>
@@ -55,6 +56,7 @@
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/waypoints.min.js"></script>
         <script src="js/main.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
