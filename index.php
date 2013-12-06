@@ -24,7 +24,7 @@
         		</nav>
         	</div>
         </header>
-        <section>
+        <section class="intro">
             <div>
                 <h1>MindMeep</h1>
                 <p>Some description about us comes here.</p>

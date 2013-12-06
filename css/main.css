@@ -22,7 +22,7 @@ section > div, header > div {
 	max-width: 70%;
 	margin: auto;
 }
-section:nth-child(1) {
+.intro {
 	background-color: #9b59b6;
 	color: white;
 }
