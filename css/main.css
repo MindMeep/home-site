@@ -4,8 +4,8 @@ body {
 
 /* HEADER */
 header {
-	
-	
+	background-color: #9b59b6;
+	color: white;
 }
 header nav, header h1 {
 	display: inline-block;
