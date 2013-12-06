@@ -6,6 +6,7 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
@@ -27,11 +28,11 @@
         <section class="intro">
             <div>
                 <h1>MindMeep</h1>
-                <p>Some description about us comes here.</p>
+                <p>We are some group that needs two lines that are a bit longer<br>Some description about us comes here.</p>
                 <!-- maybe what or how we work -->
             </div>
         </section>
-        <section>
+        <section class="work">
         	<div>
         		<h1>Our Work</h1>
         		<p>Some description of our work comes here.</p>

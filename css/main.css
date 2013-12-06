@@ -1,17 +1,58 @@
-/* ********** CSS is divided into Content, Typography, Navigation, and Animation ********** */
-
-/* ********* CONTENT ********* */
-body {
-	margin: 0;
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('/fonts/OpenSans-Light-webfont.eot');
+    src: url('/fonts/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/OpenSans-Light-webfont.woff') format('woff'),
+         url('/fonts/OpenSans-Light-webfont.ttf') format('truetype'),
+         url('/fonts/OpenSans-Light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('/fonts/OpenSans-Regular-webfont.eot');
+    src: url('/fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/OpenSans-Regular-webfont.woff') format('woff'),
+         url('/fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('/fonts/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
+
+body {
+	margin: 0;
+	font-family: 'open_sanslight';
+}
+p {
+	font-size: 23px;
+		font-weight: 300;
+}
+h1 {
+		font-weight: 300;
+}
 /* HEADER */
 header {
 	background-color: #9b59b6;
-	color: white;
+	color: #FFF;
+	display: none;
+	position: fixed;
 }
 header nav, header h1 {
 	display: inline-block;
+}
+header h1 {
+		margin: 10px;
+}
+header nav {
+	float: right;
+}
+header a {
+	text-decoration: none;
+	color: #FFF;
+	padding-top: 15px;
+	display: inline-block;
+	font-size: 20px;
 }
 section, header {
 	width: 100%;
@@ -19,27 +60,32 @@ section, header {
 
 /* SECTION */
 section > div, header > div {
-	max-width: 70%;
+	max-width: 60%;
 	margin: auto;
 }
-.intro {
-	background-color: #9b59b6;
-	color: white;
-}
-section:nth-child(even) {
+
+section:nth-child(odd) {
 	background-color: #e5e5e5;
 }
 section {
 	min-height: 500px;
 	overflow: hidden;
 }
-section h1 {
+section h1, section p {
 	text-align: center;
-	font-size: 40px;
 }
+section h1 {
+	font-size: 40px;
+	font-weight: 300;
+	 font-family: 'open_sanslight';
+}
+/* INTRO */
 
-/* ********* Typography ********* */
-
-/* ********* Navigation ********* */
-
-/* ********* Animation ********* */
+.intro {
+	background-color: #9b59b6;
+	color: white;
+}
+.intro h1 {
+	margin-top: 120px;
+	font-size: 60px;
+}
