@@ -1,8 +1,8 @@
 $(function() {
-	$('.work').waypoint(function(direction) {
+	/*$('.work').waypoint(function(direction) {
 		if(direction == 'up')
 			$('header').fadeOut();
 		else
 			$('header').fadeIn();
-	}, { offset: 70 });
+	}, { offset: 70 });*/
 });

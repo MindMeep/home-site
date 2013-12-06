@@ -35,8 +35,8 @@ h1 {
 header {
 	background-color: #9b59b6;
 	color: #FFF;
-	display: none;
-	position: fixed;
+	/*display: none;
+	position: fixed;*/
 }
 header nav, header h1 {
 	display: inline-block;
