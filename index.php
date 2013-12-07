@@ -17,10 +17,10 @@
         	<div>
         		<h1>MindMeep</h1>
         		<nav>
-        			<a href="#">Our Work</a>
-        			<a href="#">About Us</a>
-        			<a href="#">Meet the team</a>
-        			<a href="#">Contact Us</a>
+        			<a href="#">Work</a>
+        			
+        			<a href="#">team</a>
+        			<a href="#">Contact</a>
         		</nav>
         	</div>
         </header>
