@@ -18,8 +18,7 @@
         		<h1>MindMeep</h1>
         		<nav>
         			<a href="#">Work</a>
-        			
-        			<a href="#">team</a>
+        			<a href="#">Team</a>
         			<a href="#">Contact</a>
         		</nav>
         	</div>
