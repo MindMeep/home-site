@@ -27,6 +27,7 @@
             <div>
                 <h1>MindMeep</h1>
                 <p>We are some group that needs two lines that are a bit longer<br>Some description about us comes here.</p>
+                <button>Get in touch!</button>
                 <!-- maybe what or how we work -->
             </div>
         </section>

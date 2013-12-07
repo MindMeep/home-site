@@ -71,10 +71,9 @@ section:nth-child(even) {
 section {
 	min-height: 500px;
 	overflow: hidden;
-}
-section h1, section p {
 	text-align: center;
 }
+
 section h1 {
 	font-size: 40px;
 	font-weight: 300;
@@ -89,4 +88,16 @@ section h1 {
 .intro h1 {
 	margin-top: 120px;
 	font-size: 60px;
+}
+.intro button {
+	background: none;
+	border: 1px solid white;
+	padding: 15px;
+	font-size: 20px;
+	color: #FFF;
+	font-weight: 300;
+	 font-family: 'open_sanslight';
+	-webkit-border-radius: 3px;
+	        border-radius: 3px;
+	 margin: 20px;
 }
