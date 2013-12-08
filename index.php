@@ -14,14 +14,14 @@
         <![endif]-->
 
         <header>
-        	<div>
-        		<h1>MindMeep</h1>
-        		<nav>
-        			<a href="#">Work</a>
-        			<a href="#">Team</a>
-        			<a href="#">Contact</a>
-        		</nav>
-        	</div>
+            <div>
+                <h1>MindMeep</h1>
+                <nav>
+                    <a href="#">Work</a>
+                    <a href="#">Team</a>
+                    <a href="#">Contact</a>
+                </nav>
+            </div>
         </header>
         <section class="intro">
             <div>
@@ -32,32 +32,45 @@
             </div>
         </section>
         <section class="work">
-        	<div>
-        		<h1>Our Work</h1>
-        		<p>Some description of our work comes here.</p>
-        		<!-- image grid comes here -->
-        	</div>
+            <div>
+                <h1>Our Work</h1>
+                <p>Some description of our work comes here.</p>
+                <!-- image grid comes here -->
+            </div>
         </section>
         
         <section>
-        	<div>
-        		<h1>Meet the Team</h1>
-        		<p>Some description about the team comes here.</p>
-        		<!-- pictures and names here -->
-        	</div>
+            <div>
+                <h1>Meet the Team</h1>
+                <p>Some description about the team comes here.</p>
+                <!-- pictures and names here -->
+            </div>
         </section>
         <section>
-        	<div>
-        		<h1>Contact Us</h1>
-        		<p>Send us some love. No reason needed, just do it!</p>
-        		<!-- contact form -->
-        	</div>
+            <div>
+                <h1>Contact Us</h1>
+                <p>Send us some love. No reason needed, just do it!</p>
+                <!-- contact form -->
+            </div>
         </section>
+        <a href="#" class="tocontact"><i class="fa fa-envelope fa-2x"></i></a>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
         <script src="js/waypoints.min.js"></script>
         <script src="js/main.js"></script>
+
+        <script type="text/javascript">
+            $(document).ready(function(){ 
+                $(window).scroll(function(){
+                    if ($(this).scrollTop() > 100) {
+                        $('.tocontact').fadeIn();
+                    } else {
+                        $('.tocontact').fadeOut();
+                    }
+                });
+            });
+        </script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>

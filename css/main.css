@@ -1,3 +1,6 @@
+/* FONT AWESOME */
+@import url("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
+
 @font-face {
     font-family: 'open_sanslight';
     src: url('../fonts/OpenSans-Light-webfont.eot');
@@ -101,4 +104,19 @@ section h1 {
 	-webkit-border-radius: 3px;
 	        border-radius: 3px;
 	 margin: 20px;
+}
+
+/* SCROLLTOP */
+.tocontact{
+    background: #000;
+    color: #fff;
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    display: none;
+    width:40px;
+    height:40px;
+    padding: 10px 5px 5px 12px;
+    border-radius: 50px;
+    opacity:0.3;
 }
