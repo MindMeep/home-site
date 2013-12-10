@@ -105,32 +105,17 @@ section h1 {
 }
 
 /* WORK */
-figure {
-  display: block;
-  position: relative;
-  float: left;
-  overflow: hidden;
-  margin: 10px;
-  width: calc(100% / 3 - 20px);
-}
-figcaption {
-  position: absolute;
-  background: black;
-  background: rgba(0,0,0,0.75);
-  color: white;
-  padding: 10px 20px;
-  opacity: 0;
-  -webkit-transition: all 0.6s ease;
-  -moz-transition:    all 0.6s ease;
-  -o-transition:      all 0.6s ease;
-}
-figure:hover figcaption {
-  opacity: 1;
-}
-figure figcaption { bottom: 4px; left: -30%; }
-figure:hover figcaption { left: 0; }
 
-
+.work a {
+	display: inline-block;
+	width: 30%;
+	min-width: 200px;
+	margin: 10px;
+	}
+.work img {
+	width: 100%;
+	max-width: 300px;
+}
 /* SCROLLTOP */
 .tocontact{
     background: #000;
