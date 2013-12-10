@@ -35,6 +35,30 @@
             <div>
                 <h1>Our Work</h1>
                 <p>Some description of our work comes here.</p>
+                <figure>
+                <a href="#">
+                	<img src="http://css-tricks.com/examples/SlideinCaptions/images/1.jpg" alt="">
+                	<figcaption>
+                		yay!!!
+                	</figcaption>
+                	</a>
+                </figure>
+                <figure>
+                <a href="#">
+                	<img src="http://css-tricks.com/examples/SlideinCaptions/images/1.jpg" alt="">
+                	<figcaption>
+                		yay!!!
+                	</figcaption>
+                	</a>
+                </figure>
+				<figure>
+                <a href="#">
+                	<img src="http://css-tricks.com/examples/SlideinCaptions/images/1.jpg" alt="">
+                	<figcaption>
+                		yay!!!
+                	</figcaption>
+                	</a>
+                </figure>
                 <!-- image grid comes here -->
             </div>
         </section>

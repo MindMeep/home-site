@@ -68,13 +68,11 @@ section > div, header > div {
 	margin: auto;
 }
 
-section:nth-child(even) {
-	background-color: #e5e5e5;
-}
 section {
 	min-height: 500px;
 	overflow: hidden;
 	text-align: center;
+	border-bottom: 1px solid grey;
 }
 
 section h1 {
@@ -82,8 +80,8 @@ section h1 {
 	font-weight: 300;
 	 font-family: 'open_sanslight';
 }
-/* INTRO */
 
+/* INTRO */
 .intro {
 	background-color: #9b59b6;
 	color: white;
@@ -105,6 +103,33 @@ section h1 {
 	        border-radius: 3px;
 	 margin: 20px;
 }
+
+/* WORK */
+figure {
+  display: block;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px;
+  width: calc(100% / 3 - 20px);
+}
+figcaption {
+  position: absolute;
+  background: black;
+  background: rgba(0,0,0,0.75);
+  color: white;
+  padding: 10px 20px;
+  opacity: 0;
+  -webkit-transition: all 0.6s ease;
+  -moz-transition:    all 0.6s ease;
+  -o-transition:      all 0.6s ease;
+}
+figure:hover figcaption {
+  opacity: 1;
+}
+figure figcaption { bottom: 4px; left: -30%; }
+figure:hover figcaption { left: 0; }
+
 
 /* SCROLLTOP */
 .tocontact{
