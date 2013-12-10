@@ -47,6 +47,7 @@ header nav, header h1 {
 }
 header h1 {
 		margin: 13px;
+		float:left;
 }
 header nav {
 	float: left;
