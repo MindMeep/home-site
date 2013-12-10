@@ -36,6 +36,7 @@ h1 {
 }
 /* HEADER */
 header {
+	overflow:hidden;
 	background-color: #9b59b6;
 	color: #FFF;
 	/*display: none;
