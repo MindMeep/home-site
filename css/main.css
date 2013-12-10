@@ -60,6 +60,7 @@ header a {
 }
 section, header {
 	width: 100%;
+	overflow:hidden;
 }
 
 /* SECTION */
