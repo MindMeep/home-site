@@ -35,18 +35,17 @@
             <div>
                 <h1>Our Work</h1>
                 <p>Some description of our work comes here.</p>
-                <a href="">
+                <a href="#">
                 	<img src="http://css-tricks.com/examples/SlideinCaptions/images/1.jpg">
-                </a><a href="">
+                </a><a href="#">
                 	<img src="http://css-tricks.com/examples/SlideinCaptions/images/1.jpg">
-                </a><a href="">
+                </a><a href="#">
                 	<img src="http://css-tricks.com/examples/SlideinCaptions/images/1.jpg">
-                </a>
-<a href="">
+                </a><a href="#">
                 	<img src="http://css-tricks.com/examples/SlideinCaptions/images/1.jpg">
-                </a><a href="">
+                </a><a href="#">
                 	<img src="http://css-tricks.com/examples/SlideinCaptions/images/1.jpg">
-                </a><a href="">
+                </a><a href="#">
                 	<img src="http://css-tricks.com/examples/SlideinCaptions/images/1.jpg">
                 </a>
                 <!-- image grid comes here -->
@@ -57,6 +56,7 @@
             <div>
                 <h1>Meet the Team</h1>
                 <p>Some description about the team comes here.</p>
+                
                 <!-- pictures and names here -->
             </div>
         </section>
