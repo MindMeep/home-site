@@ -26,17 +26,18 @@
 body {
 	margin: 0;
 	font-family: 'open_sanslight';
+	font-size:62.5%;
 }
 p {
-	font-size: 23px;
-		font-weight: 300;
+	font-size: 2.3em;
+	font-weight: 300;
 }
 h1 {
-		font-weight: 300;
+	font-weight: 300;
+	font-size:2.9em;
 }
 /* HEADER */
 header {
-	overflow:hidden;
 	background-color: #9b59b6;
 	color: #FFF;
 	/*display: none;
@@ -46,11 +47,13 @@ header nav, header h1 {
 	display: inline-block;
 }
 header h1 {
-		margin: 13px;
-		float:left;
+	margin: 0px 13px 5px;
 }
 header nav {
-	float: left;
+	margin: 0px 13px 5px;
+}
+header nav li {
+	float:left;	
 }
 header a {
 	text-decoration: none;
@@ -61,7 +64,6 @@ header a {
 	padding-left: 25px;
 }
 section, header {
-	width: 100%;
 	overflow:hidden;
 }
 
@@ -73,15 +75,12 @@ section > div, header > div {
 
 section {
 	min-height: 500px;
-	overflow: hidden;
 	text-align: center;
 	border-bottom: 1px solid grey;
 }
 
 section h1 {
-	font-size: 40px;
-	font-weight: 300;
-	 font-family: 'open_sanslight';
+	font-size: 4em;
 }
 
 /* INTRO */
@@ -90,18 +89,15 @@ section h1 {
 	color: white;
 }
 .intro h1 {
-	margin-top: 80px;
-	margin-bottom: 5px;
-	font-size: 60px;
+	margin-top: 80px 50px;
+	font-size: 6em;
 }
 .intro button {
 	background: none;
 	border: 1px solid white;
 	padding: 15px;
-	font-size: 20px;
+	font-size: 2em;
 	color: #FFF;
-	font-weight: 300;
-	 font-family: 'open_sanslight';
 	-webkit-border-radius: 3px;
 	        border-radius: 3px;
 	 margin: 20px;
@@ -116,7 +112,6 @@ section h1 {
 	margin: 10px;
 	}
 .work img {
-	width: 100%;
 	max-width: 300px;
 }
 /* SCROLLTOP */
