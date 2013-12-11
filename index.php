@@ -26,8 +26,8 @@
         <section class="intro">
             <div>
                 <h1>MindMeep</h1>
-                <p>We are some group that needs two lines that are a bit longer<br>Some description about us comes here.</p>
-                <button>Get in touch!</button>
+                <p>We're a group dedicated to making interesting projects of our own designing, and learning a ton while we're at it!</p>
+                <a href="contact"><button>Talk to us!</button></a>
                 <!-- maybe what or how we work -->
             </div>
         </section>
@@ -61,16 +61,20 @@
         <section>
             <div>
                 <h1>Meet the Team</h1>
-                <p>Some description about the team comes here.</p>
-                
+                <p>Our profficent, awesome team</p>
                 <!-- pictures and names here -->
             </div>
         </section>
         <section>
             <div>
                 <h1>Contact Us</h1>
-                <p>Send us some love. No reason needed, just do it!</p>
+                <p>Ask as about a project, give us a tip, or pretty much anything you want to talk to us about! We read every message, so don't worry!</p>
                 <!-- contact form -->
+                <form action="" method="post">
+                    <input type="text" name="name" value="Name"/>
+                    <textarea>Throw in your comment here!</textarea>
+                    <input type="submit" name="submit_comment">
+                </form>
             </div>
         </section>
         <a href="#" class="tocontact"><i class="fa fa-envelope fa-2x"></i></a>
