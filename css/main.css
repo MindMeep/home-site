@@ -104,13 +104,34 @@ section {
 
 .work a {
 	display: inline-block;
+	position: relative;
+	overflow: hidden;
 	width: 30%;
 	min-width: 200px;
 	margin: 10px;
-	}
+}
+.work a span {
+	position: absolute;
+	background: rgba(0,0,0,0.75); 
+    color: white; 
+    padding: 10px 20px; 
+	opacity: 0;
+	bottom: 0; 
+	left: -30%;
+	-webkit-border-top-right-radius: 4px;
+	        border-top-right-radius: 4px;
+	-webkit-transition: all 0.6s ease;
+	-moz-transition:    all 0.6s ease;
+	-o-transition:      all 0.6s ease;
+}
+.work a:hover span {
+	opacity: 1;
+	left: 0;
+}
 .work img {
 	width: 100%;
 	max-width: 300px;
+	display: block;
 }
 /* SCROLLTOP */
 .tocontact{

@@ -37,16 +37,22 @@
                 <p>Some description of our work comes here.</p>
                 <a href="#">
                 	<img src="http://css-tricks.com/examples/SlideinCaptions/images/1.jpg">
+                	<span>Something</span>
                 </a><a href="#">
                 	<img src="http://css-tricks.com/examples/SlideinCaptions/images/1.jpg">
+                	<span>Something</span>
                 </a><a href="#">
                 	<img src="http://css-tricks.com/examples/SlideinCaptions/images/1.jpg">
+                	<span>Something</span>
                 </a><a href="#">
                 	<img src="http://css-tricks.com/examples/SlideinCaptions/images/1.jpg">
+                	<span>Something</span>
                 </a><a href="#">
                 	<img src="http://css-tricks.com/examples/SlideinCaptions/images/1.jpg">
+                	<span>Something</span>
                 </a><a href="#">
                 	<img src="http://css-tricks.com/examples/SlideinCaptions/images/1.jpg">
+                	<span>Something</span>
                 </a>
                 <!-- image grid comes here -->
             </div>
