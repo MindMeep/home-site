@@ -28,7 +28,6 @@
                 <h1>MindMeep</h1>
                 <p>We're a group dedicated to making interesting projects of our own designing, and learning a ton while we're at it!</p>
                 <a href="contact"><button>Talk to us!</button></a>
-                <!-- maybe what or how we work -->
             </div>
         </section>
         <section class="work">
@@ -54,7 +53,6 @@
                 	<img src="http://css-tricks.com/examples/SlideinCaptions/images/1.jpg">
                 	<span>Something</span>
                 </a>
-                <!-- image grid comes here -->
             </div>
         </section>
         
@@ -69,7 +67,6 @@
             <div>
                 <h1>Contact Us</h1>
                 <p>Ask as about a project, give us a tip, or pretty much anything you want to talk to us about! We read every message, so don't worry!</p>
-                <!-- contact form -->
                 <form action="" method="post">
                     <input type="text" name="name" placeholder="Name" /><input type="text" name="email" placeholder="Email"/>
                     <textarea placeholder="Message"></textarea>
