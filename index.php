@@ -71,9 +71,9 @@
                 <p>Ask as about a project, give us a tip, or pretty much anything you want to talk to us about! We read every message, so don't worry!</p>
                 <!-- contact form -->
                 <form action="" method="post">
-                    <input type="text" name="name" value="Name"/>
-                    <textarea>Throw in your comment here!</textarea>
-                    <input type="submit" name="submit_comment">
+                    <input type="text" name="name" placeholder="Name" /><input type="text" name="email" placeholder="Email"/>
+                    <textarea placeholder="Message"></textarea>
+                    <button>Send</button>
                 </form>
             </div>
         </section>
