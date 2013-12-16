@@ -14,9 +14,18 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <header>
+        
+        <section class="intro">
             <div>
                 <h1>MindMeep</h1>
+                <p>We're a group dedicated to making interesting projects of our own designing, and learning a ton while we're at it!</p>
+                <a href="contact"><button>Talk to us!</button></a>
+                
+            </div>
+        </section>
+        <header>
+            <div>
+
                 <nav>
                     <a href="#">Work</a>
                     <a href="#">Team</a>
@@ -24,13 +33,6 @@
                 </nav>
             </div>
         </header>
-        <section class="intro">
-            <div>
-                <h1>MindMeep</h1>
-                <p>We're a group dedicated to making interesting projects of our own designing, and learning a ton while we're at it!</p>
-                <a href="contact"><button>Talk to us!</button></a>
-            </div>
-        </section>
         <section class="work">
             <div>
                 <h1>Our Work</h1>

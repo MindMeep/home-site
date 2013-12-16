@@ -5,10 +5,10 @@ $(function() {
     		enabled:true
   		}
 	});
-	/*$('.work').waypoint(function(direction) {
+	$('header').waypoint(function(direction) {
 		if(direction == 'up')
-			$('header').fadeOut();
+			$('header>div').css("position","absolute");
 		else
-			$('header').fadeIn();
-	}, { offset: 70 });*/
+			$('header>div').css("position","fixed");
+	});
 });
