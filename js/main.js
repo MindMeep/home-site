@@ -1,6 +1,9 @@
 $(function() {
 	$('.ajax-popup-link').magnificPopup({
-		type: 'ajax'
+		type: 'ajax',
+		gallery:{
+    		enabled:true
+  		}
 	});
 	/*$('.work').waypoint(function(direction) {
 		if(direction == 'up')

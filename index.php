@@ -35,22 +35,22 @@
             <div>
                 <h1>Our Work</h1>
                 <p>Some description of our work comes here.</p>
-                <a href="api.php" class="ajax-popup-link">
+                <a href="api/project/10" class="ajax-popup-link">
                 	<img src="http://css-tricks.com/examples/SlideinCaptions/images/1.jpg">
                 	<span>Something</span>
-                </a><a href="api.php" class="ajax-popup-link">
+                </a><a href="api/project/11" class="ajax-popup-link">
                 	<img src="http://css-tricks.com/examples/SlideinCaptions/images/1.jpg">
                 	<span>Something</span>
-                </a><a href="api.php" class="ajax-popup-link">
+                </a><a href="api/project/12" class="ajax-popup-link">
                 	<img src="http://css-tricks.com/examples/SlideinCaptions/images/1.jpg">
                 	<span>Something</span>
-                </a><a href="api.php" class="ajax-popup-link">
+                </a><a href="api/project/13" class="ajax-popup-link">
                 	<img src="http://css-tricks.com/examples/SlideinCaptions/images/1.jpg">
                 	<span>Something</span>
-                </a><a href="api.php" class="ajax-popup-link">
+                </a><a href="api/project/14" class="ajax-popup-link">
                 	<img src="http://css-tricks.com/examples/SlideinCaptions/images/1.jpg">
                 	<span>Something</span>
-                </a><a href="api.php" class="ajax-popup-link">
+                </a><a href="api/project/15" class="ajax-popup-link">
                 	<img src="http://css-tricks.com/examples/SlideinCaptions/images/1.jpg">
                 	<span>Something</span>
                 </a>
