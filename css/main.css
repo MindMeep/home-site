@@ -1,4 +1,25 @@
-/* FONT AWESOME */
+
+/*	*	*	*	*	*	*	*	*\
+*	TABLE OF CONTENTS
+*	Fonts
+*	Header
+*	Section
+*	Intro
+*	Work
+*	Magnific-popup
+*
+*
+*	TIP: Search with a $ sign
+\*	*	*	*	*	*	*	*	*/
+
+
+
+
+
+
+/*	*	*	*\
+*	$FONTS 
+\*	*	*	*/
 @import url("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
 
 @font-face {
@@ -11,19 +32,6 @@
     font-weight: normal;
     font-style: normal;
 }
-/* NOT USED AT THE MOMENT.
-
-@font-face {
-    font-family: 'open_sansregular';
-    src: url('../fonts/OpenSans-Regular-webfont.eot');
-    src: url('../fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/OpenSans-Regular-webfont.woff') format('woff'),
-         url('../fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
-         url('../fonts/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}*/
-
 
 body {
 	margin: 0;
@@ -33,13 +41,20 @@ h1, p, button, span, a {
 	font-family: 'open_sanslight';
 	font-weight: 300;
 }
-p {
-	font-size: 2.3em;
+p,span {
+	font-size: 2.2em;
 }
 h1 {
 	font-size:4em;
 }
-/* HEADER */
+
+
+
+
+
+/*	*	*	*\
+*	$HEADER 
+\*	*	*	*/
 header {
 	background-color: #9b59b6;
 	color: #FFF;
@@ -66,7 +81,13 @@ section, header {
 	overflow:hidden;
 }
 
-/* SECTION */
+
+
+
+
+/*	*	*	*	*\
+*	$SECTION 
+\*	*	*	*	*/
 section > div, header > div {
 	max-width: 1000px;
 	margin: auto;
@@ -80,7 +101,11 @@ section {
 
 
 
-/* INTRO */
+
+
+/*	*	*	*\
+*	$INTRO 
+\*	*	*	*/
 .intro {
 	background-color: #9b59b6;
 	color: white;
@@ -100,8 +125,13 @@ section {
 	 margin: 20px;
 }
 
-/* WORK */
 
+
+
+
+/*	*	*	*\
+*	$WORK 
+\*	*	*	*/
 .work a {
 	display: inline-block;
 	position: relative;
@@ -118,8 +148,6 @@ section {
 	opacity: 0;
 	bottom: 0; 
 	left: -30%;
-	-webkit-border-top-right-radius: 4px;
-	        border-top-right-radius: 4px;
 	-webkit-transition: all 0.6s ease;
 	-moz-transition:    all 0.6s ease;
 	-o-transition:      all 0.6s ease;
@@ -133,6 +161,28 @@ section {
 	max-width: 300px;
 	display: block;
 }
+
+
+
+
+
+
+/*	*	*	*	*	*\
+*	$MAGNIFIC-POPUP 
+\*	*	*	*	*	*/
+.white-popup {
+  position: relative;
+  background: #FFF;
+  padding: 20px;
+  width: auto;
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+
+
+
+
 /* SCROLLTOP */
 .tocontact{
     background: #000;
