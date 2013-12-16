@@ -68,6 +68,10 @@ header>div {
 	background-color: #9b59b6;
 	color: #FFF;
 	text-align: center;
+	opacity: 1;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition:    all 0.3s ease;
+	-o-transition:      all 0.3s ease;
 }
 
 header nav, header h1 {
@@ -85,10 +89,10 @@ header nav {
 header a {
 	text-decoration: none;
 	color: #FFF;
-	padding-top: 25px;
+	padding: 10px 20px 10px 20px;
 	display: inline-block;
 	font-size: 20px;
-	padding-left: 25px;
+	
 }
 section, header {
 	overflow:hidden;
@@ -122,6 +126,7 @@ section {
 .intro {
 	background-color: #9b59b6;
 	color: white;
+	min-height: 400px;
 }
 .intro h1 {
 	margin-top: 80px 50px;
