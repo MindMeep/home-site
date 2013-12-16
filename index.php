@@ -19,8 +19,6 @@
             <div>
                 <h1>MindMeep</h1>
                 <p>We're a group dedicated to making interesting projects of our own designing, and learning a ton while we're at it!</p>
-                <a href="contact"><button>Talk to us!</button></a>
-                
             </div>
         </section>
         <header>
